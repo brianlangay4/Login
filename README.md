@@ -6,9 +6,13 @@ BRIAN BARNABAS LANGAY
 2322190027
 ##
 
-part i
+#
+Part i
+#
 
-##overview## 
+#
+overview
+# 
 
 Logic the app contains simple login system in Android studio project with java 
 the app is fully designed to create a user account , login and more littele extra features about loging System 
@@ -22,10 +26,16 @@ Password recovery
 Layout and designs 
 the projects contain simple xml designs and additional layout design  support from adobe xd for simple layout desin drawables included in project
 
-part ii
+#
+Part ii
+#
+
+
 <img width="730" alt="logic and layout plan" src="https://github.com/brianlangay4/Login/assets/67788456/77e6cd7d-e67e-4112-8e62-4e742c9b4504">
 
-**figure 01**
+**
+figure 01
+**
 
 Architect 
 
