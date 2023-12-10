@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/advent_pro_medium</item>
+        <item>@font/balsamiq_sans</item>
+        <item>@font/balsamiq_sans_bold</item>
+        <item>@font/bebas_neue</item>
+    </array>
+</resources>

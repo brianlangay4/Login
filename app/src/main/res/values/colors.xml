@@ -2,4 +2,62 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="dark0">#1B2527</color>
+    <color name="dark01">#637073</color>
+    <color name="light0">#04CCF3</color>
+    <color name="light01">#93E0EF</color>
+    <color name="light0_txt">#56B2C9</color>
+    <color name="dark0_txt">#5D7074</color>
+    <color name="dark1_txt">#E6ACAC</color>
+    <color name="light1">#30A2FF</color>
+    <color name="red">#FF0000</color>
+
+
+
+
+    <!-- green -->
+    <color name="g0">#44503D</color>
+    <color name="g1">#6D976B</color>
+    <color name="g2">#EEF1D9</color>
+    <color name="g3">#7CD373</color>
+
+    <!-- brown -->
+    <color name="b0">#7C7465</color>
+    <color name="b1">#A7A197</color>
+    <color name="b2">#433939</color>
+    <color name="b3">#F1E0BE</color>
+    <color name="b4">#F2B646</color>
+
+    <!-- dark blue -->
+    <color name="n2">#1C274C</color>
+    <color name="n1">#616D94</color>
+    <color name="n0">#D5DFFF</color>
+    <color name="n3">#E1E1E1</color>
+    <color name="n4">#FFFFFFFF</color>
+
+    <!-- blue -->
+    <!-- default -->
+    <color name="d4">#637073</color>
+    <color name="d3">#0353F4</color>
+    <color name="d2">#E1E1E1</color>
+    <color name="d1">#EFEEEE</color>
+    <color name="d0">#FFFFFFFF</color>
+
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#0c88f4</color>
+
+    <color name="primaryBlue">#7685d2</color>
+
+
+    <color name="green0">#65B740</color>
+
+
+
+    <color name="dice_game_bc">#D24539</color>
+    <color name="weatherApp_bc">#BACDF8</color>
+    <color name="weatherApp_bc2">#4E7EEF</color>
+    <color name="orange">#F5591D</color>
 </resources>
