@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/pre"
+    android:id="@+id/regstration_page"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/loginbc13"
     android:orientation="vertical"
-    android:background="@drawable/loginbc12"
     android:padding="10dp"
-    tools:context=".Login">
-
+    tools:context=".Register">
 
 
     <RelativeLayout
         android:id="@+id/icon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         >
 
         <RelativeLayout
@@ -39,49 +37,49 @@
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
                 android:visibility="visible"
-                app:lottie_autoPlay="true"
+                app:lottie_autoPlay="false"
                 app:lottie_loop="true"
-                app:lottie_rawRes="@raw/welcometm" />
+                app:lottie_rawRes="@raw/together" />
 
         </RelativeLayout>
 
     </RelativeLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/content_holder"
-        android:layout_width="340dp"
-        android:layout_height="wrap_content"
         android:layout_below="@+id/icon"
+        android:layout_width="339dp"
+        android:layout_height="300dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         >
 
+
         <EditText
-            android:id="@+id/username1"
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:autofillHints="Username"
-            android:background="@drawable/transp2"
+            android:background="@drawable/transp3"
             android:hint="username"
             android:inputType="textAutoComplete"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"  />
 
         <EditText
-            android:id="@+id/password1"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="8dp"
             android:autofillHints="Password"
-            android:background="@drawable/transp2"
+            android:background="@drawable/transp3"
             android:hint="password"
             android:inputType="textPassword"
             android:paddingStart="20dp"
@@ -89,92 +87,61 @@
             app:layout_constraintBaseline_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/username1" />
+            app:layout_constraintTop_toBottomOf="@+id/username" />
+
+        <EditText
+            android:id="@+id/repassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints="Password"
+            android:background="@drawable/transp3"
+            android:hint="re-password"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            app:layout_constraintBaseline_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/password" />
 
         <Button
-            android:id="@+id/btnsignin1"
+            android:id="@+id/btnsignup"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="80dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="80dp"
-            android:background="@drawable/login_btn_bc1"
-            android:fontFamily="@font/balsamiq_sans"
-            android:text="login"
+            android:padding="3dp"
+            android:background="@drawable/register_btn_bc"
+            android:fontFamily="@font/balsamiq_sans_bold"
+            android:text="register"
             android:textAllCaps="false"
             android:textSize="20sp"
             android:textStyle="bold"
             app:backgroundTint="@null"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/password1" />
+            app:layout_constraintTop_toBottomOf="@id/repassword" />
 
         <TextView
-            android:id="@+id/Regbtn"
+            android:id="@+id/preview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="131dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="131dp"
-
-            android:fontFamily="@font/balsamiq_sans"
-
-
-            android:text="SignUp"
-            android:textColor="@color/d3"
-            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            android:text="info"
+            android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnsignin1" />
-
-        <TextView
-            android:id="@+id/preview0"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="146dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="146dp"
-
-
-            android:text="Info"
-            android:visibility="visible"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Regbtn" />
+            app:layout_constraintTop_toBottomOf="@+id/btnsignup" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <RelativeLayout
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_below="@+id/content_holder"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="55dp"
-        >
 
-        <com.airbnb.lottie.LottieAnimationView
-            android:id="@+id/loading"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:visibility="invisible"
-            app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-            app:lottie_rawRes="@raw/reg_loading_prg" />
 
-    </RelativeLayout>
 
-    <TextView
-        android:id="@+id/sponsor_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp"
-        android:text="Powerd by Brian"
-        android:textColor="@color/dark01"
-        android:textSize="10sp" />
 
 </RelativeLayout>
