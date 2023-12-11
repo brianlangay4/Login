@@ -5,9 +5,7 @@
 2322190027
 ##
 
-#
-<h4>Part i<h4/>
-#
+#  part i
 
 
 <h1>overview<h1/>
@@ -55,19 +53,19 @@ Password recovery
 Layout and designs 
 the projects contain simple xml designs and additional layout design  support from adobe xd for simple layout desin drawables included in project
 
-#
-Part ii
-#
+#  Part ii
 
 
 <img width="730" alt="logic and layout plan" src="https://github.com/brianlangay4/Login/assets/67788456/77e6cd7d-e67e-4112-8e62-4e742c9b4504">
 
-                                                                                    ***figure 01***
+                                        ***figure 01***
 
-Architect 
+<h2>Architect<h2/>
 
+##
 the login System is designed as above picture fig01 structure 
 shows the layout plan and structure of the app Control management of layout from loading activity to the user activity 
+##
 
 ***the app uses sqlite for testing purpose or if need to create app with local database system the sqlite is respnsible for usermanagement database of this app creating user and accessing user information below we have the full steps on how this app works and navigate with the data collected***
 
