@@ -1,7 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Login" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Login" parent="Theme.Material3.Dark.NoActionBar">
         <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/maroon</item>
+        <item name="colorAccent">#1C1B1F</item>
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+
+        <!-- Navigation bar color (if applicable) -->
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="CustomButtonTheme" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/d0</item>
+        <!-- Add any other button-related styling here -->
     </style>
 </resources>
