@@ -18,6 +18,11 @@ overview
 current state screenshots
 ##
 
+
+[rec.webm](https://github.com/brianlangay4/Login/assets/67788456/7a6ca0e1-78a3-4fb0-bf53-525a2808aa93)
+
+**Layout preview**
+
 <img width="227" alt="Screenshot 2023-12-11 at 07 17 47" src="https://github.com/brianlangay4/Login/assets/67788456/e5ff6f8e-c61a-4813-a119-4106b20f755b">
 
 
