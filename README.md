@@ -15,10 +15,10 @@ overview
 # 
 
 ##
-current state screenshots
+<h1>current state update 0.0.3<h1/>
 ##
 
-![fb377433-2cf8-488f-83dc-e2da47e791ae](https://github.com/brianlangay4/Login/assets/67788456/85e839de-b861-4056-a26d-5b4ac31fe43d)
+[fb377433-2cf8-488f-83dc-e2da47e791ae](https://github.com/brianlangay4/Login/assets/67788456/85e839de-b861-4056-a26d-5b4ac31fe43d)
 
 
 
@@ -38,7 +38,7 @@ current state screenshots
 
 
 
-<h2>***Logic***<h2/>
+<h2>Logic<h2/>
 the app contains simple login system in Android studio project with java 
 the app is fully designed to create a user account , login and more littele extra features about loging System 
 
