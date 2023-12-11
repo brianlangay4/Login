@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/loginbc12"
+    android:background="@drawable/login_bc"
     android:padding="10dp"
     tools:context=".Login">
 
@@ -17,19 +17,19 @@
         android:id="@+id/icon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="160dp"
         >
 
         <RelativeLayout
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
             android:padding="2dp"
             android:layout_centerInParent="true">
 
-            <com.airbnb.lottie.LottieAnimationView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/icon_anim"
-                android:layout_width="191dp"
-                android:layout_height="184dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="2dp"
@@ -38,10 +38,8 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="5dp"
-                android:visibility="visible"
-                app:lottie_autoPlay="true"
-                app:lottie_loop="true"
-                app:lottie_rawRes="@raw/welcometm" />
+                android:src="@drawable/bird02"
+               />
 
         </RelativeLayout>
 
@@ -66,6 +64,7 @@
             android:autofillHints="Username"
             android:background="@drawable/transp2"
             android:hint="username"
+            android:textColorHint="@color/dark0_txt"
             android:inputType="textAutoComplete"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
@@ -83,6 +82,7 @@
             android:autofillHints="Password"
             android:background="@drawable/transp2"
             android:hint="password"
+            android:textColorHint="@color/dark0_txt"
             android:inputType="textPassword"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
@@ -93,6 +93,7 @@
 
         <Button
             android:id="@+id/btnsignin1"
+            style="@style/CustomButtonTheme"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="80dp"
@@ -121,7 +122,7 @@
 
 
             android:text="SignUp"
-            android:textColor="@color/d3"
+            android:textColor="@color/maroon"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -136,7 +137,7 @@
             android:layout_marginEnd="146dp"
 
 
-            android:text="Info"
+            android:text=" "
             android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -174,7 +175,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"
         android:text="Powerd by Brian"
-        android:textColor="@color/dark01"
+        android:textColor="@color/d0"
         android:textSize="10sp" />
 
 </RelativeLayout>

@@ -1,9 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Login" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Login" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/yellow1</item>
+        <item name="colorAccent">@color/d1</item>
+
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Navigation bar color (if applicable) -->
+        <item name="android:navigationBarColor">@color/d0</item>
     </style>
 
     <style name="Theme.Login" parent="Base.Theme.Login" />
+
+    <style name="CustomButtonTheme" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/d0</item>
+
+        <!-- Add any other button-related styling here -->
+    </style>
+
+
+
+
 </resources>
