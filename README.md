@@ -23,8 +23,7 @@ Gradle version 8.2
 </P>
 
 ##
-
-
+##
 
 <h1>current state update 0.0.3<h1/>
 ##
