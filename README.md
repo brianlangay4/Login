@@ -6,14 +6,19 @@
 ##
 
 #
-Part i
+<h4>Part i<h4/>
 #
 
-##
-overview
 
+<h1>overview<h1/>
 
-##
+<h4>Tools</h4>
+<p>
+Gradle version 8.2
+Sqlite
+Java version 17
+</p>
+
 <h1>current state update 0.0.3<h1/>
 ##
 
@@ -57,14 +62,14 @@ Part ii
 
 <img width="730" alt="logic and layout plan" src="https://github.com/brianlangay4/Login/assets/67788456/77e6cd7d-e67e-4112-8e62-4e742c9b4504">
 
-**
-figure 01
-**
+                                                                                    ***figure 01***
 
 Architect 
 
 the login System is designed as above picture fig01 structure 
-shows the layout plan and structure of the app Control management of layout from main activity to the user activity 
+shows the layout plan and structure of the app Control management of layout from loading activity to the user activity 
+
+***the app uses sqlite for testing purpose or if need to create app with local database system the sqlite is respnsible for usermanagement database of this app creating user and accessing user information below we have the full steps on how this app works and navigate with the data collected***
 
 1st the application will start with the splash showing the application general representation the app main icon and the app name and extra
 2nd the app will establish another background function of checking if the user has logged in before and on Success the app willdirect the user to main vuiew activity 
