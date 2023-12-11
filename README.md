@@ -35,7 +35,8 @@ current state screenshots
 
 
 
-Logic the app contains simple login system in Android studio project with java 
+***##Logic##*** 
+the app contains simple login system in Android studio project with java 
 the app is fully designed to create a user account , login and more littele extra features about loging System 
 
 whats included 
