@@ -1,8 +1,7 @@
 # Login with android studio
 
 ##
-BRIAN BARNABAS LANGAY
-##
+#BRIAN BARNABAS LANGAY
 2322190027
 ##
 
@@ -10,16 +9,16 @@ BRIAN BARNABAS LANGAY
 Part i
 #
 
-#
+##
 overview
-# 
+
 
 ##
 <h1>current state update 0.0.3<h1/>
 ##
 
-[fb377433-2cf8-488f-83dc-e2da47e791ae](https://github.com/brianlangay4/Login/assets/67788456/85e839de-b861-4056-a26d-5b4ac31fe43d)
 
+![fb377433-2cf8-488f-83dc-e2da47e791ae](https://github.com/brianlangay4/Login/assets/67788456/c16db399-4011-4d02-8ce3-72f533722686)
 
 
 [rec.webm](https://github.com/brianlangay4/Login/assets/67788456/7a6ca0e1-78a3-4fb0-bf53-525a2808aa93)
