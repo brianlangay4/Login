@@ -84,13 +84,17 @@ public class Login extends AppCompatActivity {
                     Intent intent = new Intent(Login.this, MainActivity.class);
                     startActivity(intent);
                     finish();  // Close the login activity to prevent going back to it from the main activity
+                    //LoginApp Notification
+                    NotificationHelper.showCustomNotification(Login.this, "LoginApp Notification", "Welcome! "+username1.getText().toString(), 3000);
                 } else {
                     // Login failed
-                    preview0.setText("Invalid username or password. Please try again.");
+                    //preview0.setText("Invalid username or password. Please try again.");
+                    NotificationHelper.showCustomNotification(Login.this, "LoginApp Error Message \uD83D\uDEAB", "Invalid username or password. Please try again. ", 3000);
                 }
             } else {
                 // Username or password is empty
-                preview0.setText("Please enter both username and password.");
+                //preview0.setText("Please enter both username and password.");
+                NotificationHelper.showCustomNotification(Login.this, "LoginApp Error Message \uD83D\uDEAB", "Please enter both username and password.", 3000);
             }
         });
 
@@ -116,7 +120,7 @@ public class Login extends AppCompatActivity {
     }
 
     private void showFirstTimeLoginNotification() {
-        NotificationHelper.showCustomNotification(Login.this, "First-Time Login", "Welcome! You have successfully logged in for the first time.", 3000);
+        NotificationHelper.showCustomNotification(Login.this, "Welcome to Login", "Welcome! You have successfully logged in for the first time.", 3000);
     }
 
 

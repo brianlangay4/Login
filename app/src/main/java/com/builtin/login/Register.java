@@ -83,23 +83,29 @@ public class Register extends AppCompatActivity {
                         // Registration successful
                         preview.setText("Registration Successful!\nUser ID: " + userId);
                         preview.setVisibility(View.VISIBLE);
-                        NotificationHelper.showCustomNotification(Register.this, "Account created Successfully", "Welcome! "+username, 3000);
+                        NotificationHelper.showCustomNotification(Register.this, "Account created Successfully \uD83D\uDE80", "Welcome! "+username, 3000);
                         Intent intent = new Intent(Register.this,Login.class);
                         startActivity(intent);
                         finish();
                     } else {
                         // Registration failed
-                        preview.setText("Registration failed. Please try again.");
-                        preview.setVisibility(View.VISIBLE);
-                        NotificationHelper.showCustomNotification(Register.this, "Registration failed.", "Please try again.", 3000);
+                        //preview.setText("Registration failed. Please try again.");
+                        ///preview.setVisibility(View.VISIBLE);
+                        NotificationHelper.showCustomNotification(Register.this, "Registration failed. \uD83D\uDEAB", "Please try again.", 3000);
                     }
                 } else {
                     // Passwords do not match
-                    Toast.makeText(Register.this, "Passwords do not match. Please retype.", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(Register.this, "Passwords do not match. Please retype.", Toast.LENGTH_SHORT).show();
+                    NotificationHelper.showCustomNotification(Register.this, "Registration failed. \uD83D\uDEAB", "Passwords do not match. Please retype.", 3000);
+                    passwordEditText.setError("Passwords do not match. Please retype.");
+
                 }
             } else {
                 // Username or password is empty
-                Toast.makeText(Register.this, "Please enter both username and password.", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(Register.this, "Please enter both username and password.", Toast.LENGTH_SHORT).show();
+                NotificationHelper.showCustomNotification(Register.this, "Registration failed.", "Please enter both username and password.", 3000);
+                usernameEditText.setError("Please enter both username and password.");
+                passwordEditText.setError("Please enter both username and password.");
             }
         });
     }

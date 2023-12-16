@@ -69,10 +69,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-
-
-
-
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String loggedInUsername = getLoggedInUsername();
                 if (!loggedInUsername.isEmpty()) {
-                    NotificationHelper.showCustomNotification(MainActivity.this, "Ping!!", "Hi "+loggedInUsername,3000);
+                    NotificationHelper.showCustomNotification(MainActivity.this, "Ping!! Notification \uD83D\uDD14", "This is Ping Active message Hello \uD83D\uDC4B  "+loggedInUsername,3000);
 
                 }
 
@@ -139,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void showLogoutNotification() {
 
-        NotificationHelper.showCustomNotification(MainActivity.this, "Logout", "You have been logged out",3000);
+        NotificationHelper.showCustomNotification(MainActivity.this, "Logout NOtification", "You have been logged out",3000);
     }
 
     private boolean isLoggedIn() {
