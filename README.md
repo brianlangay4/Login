@@ -1,4 +1,4 @@
-# Login with android studio
+![login0 2](https://github.com/brianlangay4/Login/assets/67788456/bff0e09e-8976-45ff-b34e-7da240e90d60)# Login with android studio
 
 ##
 #BRIAN BARNABAS LANGAY
@@ -23,9 +23,7 @@ Gradle version 8.2
 
 ##
 
-<h1>current state update 0.0.3<h1/>
-
-
+#update 0.2.0 Login App ⚡️
 
 ![fb377433-2cf8-488f-83dc-e2da47e791ae](https://github.com/brianlangay4/Login/assets/67788456/c16db399-4011-4d02-8ce3-72f533722686)
 
@@ -87,6 +85,30 @@ Continue to next process
 
 5th checking user existance and validation if username exists in database then check the password is belongs to this user on success start user main page view else
 if user information doesn’t match display error message "user credentials not correct "
+
+
+# Updates 
+## 0.2.0
+#
+whats new 🚀
+updated ui an retouched layout components for better looking and response
+updated messsage notification and i gonore toast to only using custom notification popup
+can accept notificationn tittle and message.
+
+new look
+
+![login0 2](https://github.com/brianlangay4/Login/assets/67788456/7bf67cf0-24f6-4fb0-9089-49b034cf215f)
+
+full video
+
+[login0.2.webm](https://github.com/brianlangay4/Login/assets/67788456/1a2a5f42-2abb-4172-bd1b-4e5c97a28b00)
+
+
+
+
+
+
+
 
 
 
