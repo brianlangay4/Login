@@ -159,9 +159,7 @@ For testing purposes or when there is a need to create an app with a local datab
 
 #### New Look
 
-![Login 0.2](https://github.com/brianlangay4/Login/assets/67788456/bff0e09e-8976-45ff-b34
-
-e-7da240e90d60)
+![login0 2](https://github.com/brianlangay4/Login/assets/67788456/bff0e09e-8976-45ff-b34e-7da240e90d60)
 
 #### Full Video
 
