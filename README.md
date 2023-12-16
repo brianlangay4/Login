@@ -1,4 +1,6 @@
-![login0 2](https://github.com/brianlangay4/Login/assets/67788456/bff0e09e-8976-45ff-b34e-7da240e90d60)# Login with android studio
+# Login with android studio
+
+![login0 2](https://github.com/brianlangay4/Login/assets/67788456/bff0e09e-8976-45ff-b34e-7da240e90d60)
 
 ##
 #BRIAN BARNABAS LANGAY
@@ -97,7 +99,7 @@ can accept notificationn tittle and message.
 
 new look
 
-![login0 2](https://github.com/brianlangay4/Login/assets/67788456/7bf67cf0-24f6-4fb0-9089-49b034cf215f)
+![login0 2](https://github.com/brianlangay4/Login/assets/67788456/bff0e09e-8976-45ff-b34e-7da240e90d60)
 
 full video
 
