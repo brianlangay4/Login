@@ -1,3 +1,5 @@
+/*creator Brian Barnabas Langay
+ email brianlangay0@gmail.com*/
 pluginManagement {
     repositories {
         google()

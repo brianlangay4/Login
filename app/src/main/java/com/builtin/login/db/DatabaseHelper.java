@@ -1,4 +1,6 @@
 package com.builtin.login.db;
+/*creator Brian Barnabas Langay
+ email brianlangay0@gmail.com*/
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -40,6 +42,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        // for Upgrade
+        /* for Upgrade purposes */
     }
 }

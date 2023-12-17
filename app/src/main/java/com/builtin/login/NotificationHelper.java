@@ -1,5 +1,6 @@
 package com.builtin.login;
-
+/*creator Brian Barnabas Langay
+ email brianlangay0@gmail.com*/
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;

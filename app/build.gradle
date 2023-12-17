@@ -1,3 +1,6 @@
+
+/*creator Brian Barnabas Langay
+ email brianlangay0@gmail.com*/
 plugins {
     id 'com.android.application'
 }
